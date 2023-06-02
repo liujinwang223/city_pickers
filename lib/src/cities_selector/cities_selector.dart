@@ -112,8 +112,8 @@ class CitiesSelector extends StatefulWidget {
     final theme = Theme.of(context);
 
     return ListTileTheme(
-      selectedColor: widget.itemSelectFontColor ?? theme.colorScheme.primary,
-      textColor: widget.itemFontColor ?? theme.colorScheme.secondary,
+//       selectedColor: widget.itemSelectFontColor ?? theme.colorScheme.primary,
+//       textColor: widget.itemFontColor ?? theme.colorScheme.secondary,
       child: ListTile(
         selected: selected,
         title: Text(city.name, style: TextStyle(fontSize: widget.itemFontSize)),
